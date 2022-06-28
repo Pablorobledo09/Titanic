@@ -1,0 +1,92 @@
+body header {
+    background-color: aqua;
+}
+
+div p span {
+    background-color: coral;
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.circulo {
+    background-color: rgb(0, 89, 190);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: circulo-celeste;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes circulo-celeste {
+    0% {background-color: brown;}
+    25% {background-color: darkgreen;}
+    50% {background-color: beige;}
+    75% {background-color: black;}
+    100% {background-color: darkcyan;}
+
+}*/
+
+.circulo2 {
+    background-color: rgb(223, 18, 18);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: circulo-rojo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes circulo-rojo {
+    0% {background-color: brown;}
+    25% {background-color: darkgreen;}
+    50% {background-color: beige;}
+    75% {background-color: black;}
+    100% {background-color: darkcyan;}
+
+}*/
+
+
+.circulo3 {
+    background-color: rgb(255, 218, 10);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: circulo-amarillo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes circulo-amarillo {
+    0% {background-color: brown;}
+    25% {background-color: darkgreen;}
+    50% {background-color: beige;}
+    75% {background-color: black;}
+    100% {background-color: darkcyan;}
+
+}*/
+
+
+.circulo4 {
+    background-color: rgb(19, 226, 29);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: circulo-verde;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes circulo-verde {
+    0% {background-color: brown;}
+    25% {background-color: darkgreen;}
+    50% {background-color: beige;}
+    75% {background-color: black;}
+    100% {background-color: darkcyan;}
+
+}*/
